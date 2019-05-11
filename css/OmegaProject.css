@@ -1,0 +1,53 @@
+body{
+	background-image:url(140520040122.jpg);
+}
+h1{
+	text-align: center;
+}
+input{
+width: 150px;
+height: 150px;
+background-color: lightblue;
+cursor: pointer;
+border-radius: 50%;
+color: red;
+background-image: url(https://i.gifer.com/3QAe.gif);
+}
+html{
+	color: red;
+}
+li{
+	font-weight: bold;
+}
+.center{
+	text-align: center;
+
+}
+.flex{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+.flags-container img{
+	width: 100px;
+	height: 100px;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.flags-container img:hover{
+	opacity: .7;
+	border: 2px solid yellow;
+}
+
+.active{
+	border: 2px solid red !important;
+}
